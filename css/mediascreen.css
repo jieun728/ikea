@@ -1,0 +1,196 @@
+@media screen and (max-width:1650px){
+  header#header_inner, section#visual_inner,section#product_inner,section#sns_inner,section#subsidiary_inner{
+    width:95%;
+  }
+  section#about_inner,footer#footer_inner,section#camping_inner{
+    width:100%;
+  }
+  ul#product_list{
+    margin-left:3%;
+  }
+}
+@media screen and (max-width:1615px){
+  ul#camping_list li:nth-child(2) a{
+    right:120px; color:white;
+  }
+  ul#camping_list li:nth-child(3) a{
+    left:120px; color:white;
+  }
+}
+@media screen and (max-width:1560px){
+  div#product_wrap{
+    height:1350px;
+  }
+  div#product_ex{
+    height:1000px; width:730px; left:50%; margin-left:-365px; margin-top:50px
+  }
+  ul#product_list{
+    top:920px; width:500px; left:50%; margin-left:-250px; position:absolute;
+  }
+  p#product_title{
+    -webkit-transform:rotate(0deg); left:130px; top:10px;
+  }
+  ul#product_list li{
+    display:none;
+  }
+  ul#product_list li:first-child{
+    display:block;
+  }
+  p#product_text{
+    bottom:180px;
+  }
+  p#product_more{
+    bottom:80px;
+  }
+  p#product_prev{
+    display:block;
+  }
+  p#product_next{
+    display:block;
+  }
+}
+
+@media screen and (max-width:1400px){
+  div#camping_wrap{
+    height:1400px;
+  }
+  section#camping_inner{
+    padding-top:80px;
+  }
+  p#camping_title a{
+    width:100%; height:120px;
+  }
+  p#camping_text01 a{
+    text-align:center; float:none; margin:0px auto; margin-top:250px;
+  }
+  p#camping_text02 a{
+    margin-top:40px; text-align:center; width:100%;
+  }
+  ul#camping_list li{
+    width:100%; display:none;
+  }
+  ul#camping_list li:nth-child(1){
+    display:block;
+  }
+  ul#camping_list li:nth-child(1) div.camping_img{
+    right:50%; margin-right:-335px;
+  }
+}
+@media screen and (max-width:1250px){
+  ul#footer_sns{
+    display:none;
+  }
+  ul#footer_menu{
+    width:80%;left:50%; margin-left:-40%;
+  }
+  p#footer_text{
+    left:50%; margin-left:-385px;
+  }
+}
+@media screen and (max-width:1200px){
+  nav#utility,nav#mainmenu{
+    display:none;
+  }
+  nav#mobilemenu{
+    display:block;
+  }
+  /* contents */
+  div#about_wrap{
+    height:1150px;
+  }
+  div.about_img1,div.about_img2{
+    display:none;
+  }
+  div.about_img3{
+    display:block; background-position: center;
+  }
+  div#about_ex{
+    width:100%; height:600px;
+  }
+  p#about_title{
+    margin-top:70px;
+  }
+  p#about_text{
+    height:220px; margin-top:30px;
+  }
+  section#movie_wrap{
+    display:none;
+  }
+  ul#subsidiary_list a{
+    font-size:32px;
+  }
+  p#subsidiary_text{
+    width:720px;
+  }
+}
+@media screen and (max-width:1000px){
+  ul#visual_list_text{
+    width:430px; text-align:justify; margin-left:-215px;
+  }
+}
+@media screen and (max-width:800px){
+  ul#sns_title{
+    margin-left:0px;
+  }
+  ul#footer_menu{
+    width:90%; margin-left:-45%;
+  }
+  p#footer_text{
+    width:540px; margin-left:-270px;
+  }
+  p#footer_text a{
+    margin-top:4px; text-align: justify;
+  }
+}
+@media screen and (max-width:770px){
+  p#about_text{
+    width:580px ;margin-top:50px; height:245px;
+  }
+  p#about_title a{
+    font-size:60px; display:block; text-align: center;
+  }
+  p#product_text{
+    width:500px; bottom:150px; right:130px;
+  }
+  p#product_more{
+    bottom:50px;
+  }
+  p#product_prev{
+    left:0px; width:30px; height:55px; background-size: cover;
+   }
+   p#product_next{
+    right:0px; width:30px; height:55px; background-size: cover;
+   }
+  div#subsidiary_wrap{
+    height:900px;
+  }
+  p#subsidiary_text{
+    width:530px;
+  }
+  p#subsidiary_title a{
+   width:550px; float:none; margin:0px auto; margin-top:50px; font-size:50px;
+  }
+  p#subsidiary_text a{
+    text-align:justify;
+  }
+  ul#subsidiary_list{
+    margin-top:50px;
+  }
+  ul#subsidiary_list li{
+    width:100%; margin-bottom:20px;
+  }
+}
+@media screen and (max-width:740px){
+  div#camping_wrap{
+    height:1400px;
+  }
+  p#camping_title a{
+    margin:0px auto; font-size:50px; height:150px;
+  }
+  p#camping_text01 a{
+    margin-top:80px; width:550px;
+  }
+  p#camping_text02 a{
+    float:none; margin:0px auto; margin-top:40px; width:85%;
+  }
+}

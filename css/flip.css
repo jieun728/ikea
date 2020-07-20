@@ -1,0 +1,78 @@
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+
+	.flip-container:hover .flipper,  
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 200px;
+	height: 200px;
+}
+
+.flipper {
+	-webkit-transition: 0.4s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.4s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.4s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.4s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+
+	z-index: 2;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+}
+ul#product_list li:nth-child(1) .front{
+  background:url("/ikea/images/product02.jpg")no-repeat; background-size: cover;
+}
+ul#product_list li:nth-child(1) .back{
+  background:url("/ikea/images/product02_back.jpg")no-repeat; background-size: cover;
+}
+ul#product_list li:nth-child(2) .front{
+  background:url("/ikea/images/product01.jpg")no-repeat; background-size: cover;
+}
+ul#product_list li:nth-child(2) .back{
+  background:url("/ikea/images/product01_back.jpg")no-repeat; background-size: cover;
+}
+ul#product_list li:nth-child(3) .front{
+  background:url("/ikea/images/product03.jpg")no-repeat; background-size: cover;
+}
+ul#product_list li:nth-child(3) .back{
+  background:url("/ikea/images/product03_back.jpg")no-repeat; background-size: cover;
+}
